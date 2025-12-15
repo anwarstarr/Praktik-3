@@ -5,11 +5,11 @@
   "homepage": "https://iwanBrt.github.io/TugasKuliah_item_card_react",
   "type": "module",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "predeploy": "npm run build",      
-  "deploy": "gh-pages -d dist"       
-},
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
@@ -25,6 +25,7 @@
     "eslint-plugin-react-refresh": "^0.4.22",
     "gh-pages": "^6.3.0",
     "globals": "^16.4.0",
+    "typescript": "^5.9.3",
     "vite": "^7.1.7"
   }
 }
