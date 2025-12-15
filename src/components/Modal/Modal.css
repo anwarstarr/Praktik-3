@@ -1,0 +1,38 @@
+.modal-overlay{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,0.4);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
+}
+.modal{
+  background:white;
+  border-radius:10px;
+  width:480px;
+  max-width:92%;
+  box-shadow:0 12px 40px rgba(0,0,0,0.25);
+  overflow:hidden;
+}
+.modal-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 18px;
+  border-bottom:1px solid #eee;
+}
+.modal-body{padding:18px}
+.modal-close{
+  background:transparent;
+  border:none;
+  font-size:20px;
+  cursor:pointer;
+}
+.modal form .form-row{margin-bottom:12px}
+.modal form label{display:block;margin-bottom:6px;font-weight:600}
+.modal form input, .modal form select{width:100%;padding:8px;border:1px solid #ddd;border-radius:6px}
+.modal form .actions{display:flex;gap:10px;justify-content:flex-end;margin-top:12px}
+.modal form .btn{padding:8px 14px;border-radius:6px;border:none;cursor:pointer}
+.modal form .btn.primary{background:#36c05b;color:white}
+.modal form .btn.ghost{background:#f1f1f1}
