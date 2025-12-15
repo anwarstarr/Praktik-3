@@ -13,5 +13,5 @@ export default defineConfig({
   // Use a relative base so the build works on GitHub Pages and Vercel
   // - For GitHub Pages (repo pages) an absolute base like '/repo-name/' also works,
   //   but using './' makes the build portable to hosting that serves at root (Vercel).
-  base: './',
+  base: '.praktik-3/',
 })
